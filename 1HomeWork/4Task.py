@@ -11,7 +11,7 @@ m = int(input('Введите размер шоколадки по горизо�
 k = int(input('Введите кол-во долек шоколадки после разлома, который хотите получить: '))
 
 allPortionChocolateBar = n*m
-if allPortionChocolateBar>k and k%n ==0 or k%m==0:
+if (allPortionChocolateBar>k and k%n ==0 or k%m==0):
     print('yes')
 else:
     print('no')
